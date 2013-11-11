@@ -1,5 +1,7 @@
 # Makefile.am for the SDL sample image loading library and viewer
 
+ACLOCAL_AMFLAGS = -I acinclude
+
 lib_LTLIBRARIES = libSDL2_net.la
 
 libSDL2_netincludedir = $(includedir)/SDL2
